@@ -1,0 +1,52 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testing and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.local
+
+# Working directories and outputs
+/tmp/
+transcription_work/
+*.srt
+*.vtt
+!tests/fixtures/**/*.srt
+
+# Audio test files (do not commit large media)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+*.opus
+*.webm
+
+# Model caches
+.cache/
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
