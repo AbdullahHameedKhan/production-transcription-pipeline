@@ -68,7 +68,7 @@ ffprobe -version
 
 ```bash
 git clone <repo-url>
-cd transcription-pipeline
+cd production-transcription-pipeline
 
 python -m venv venv
 source venv/bin/activate          # Windows: .\venv\Scripts\activate
