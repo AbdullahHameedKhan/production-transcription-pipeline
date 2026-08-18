@@ -67,7 +67,7 @@ ffprobe -version
 ## Setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/AbdullahHameedKhan/production-transcription-pipeline.git
 cd production-transcription-pipeline
 
 python -m venv venv
